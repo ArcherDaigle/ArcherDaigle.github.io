@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="myStylePortfolio.css"></link>
+    </head>
+
+    <body>
+      <div id="all-contents">
+        <nav>
+            <header>Space Resume</header>
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="sidebar">
+                <img src="https://66.media.tumblr.com/f54f10265ed36f2835676ccb56c26a99/tumblr_pb7kpvPUDq1ux36bvo7_1280.png">
+            <div class="content"><center>
+                <h1>Portfolio</h1>
+                <ul id="portfolio"></ul></center>
+            </div>
+        </main>
+      </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script id="portfolioScript">$(document).ready(function() {$.getJSON('projects/projects.json').then(function(data) { data.projects.forEach(function(project){ $('#portfolio').append('<li><a href="projects/' + project.name + '/">' + project.title + ' : ' + project.description + '</a></li>'); }); }); });</script>
+    </body>
+</html>

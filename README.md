@@ -1,2 +1,2 @@
 # ArcherDaigle.github.io
-Hehe. Website.
+A basic website

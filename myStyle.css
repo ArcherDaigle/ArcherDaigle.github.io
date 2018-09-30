@@ -1,0 +1,75 @@
+
+            body {
+                background-image: url("https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/Stars_and_galaxy_gaf4dy.jpg");
+                background-color: #cccccc;
+                background-repeat:no-repeat;
+                background-size:cover;
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background-image: url("http://www.wickedwalls.com.au/uploads/2/2/7/6/2276646/s351108049999434943_p1245_i8_w640.jpeg");
+                background-color: #cccccc;
+                margin: 0 auto;
+                margin-right:500px;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border: 2px solid red;
+                border-radius: 25px;
+                border-style:dotted;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(51, 204, 51);
+                text-shadow:
+                    -1px -1px 0 #fff,
+                    1px -1px 0 #fff,
+                    -1px 1px 0 #fff,
+                    1px 1px 0 #fff;  
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: #1C1638;
+                display: flex;
+                margin-right:500px;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+                color: #fff;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
