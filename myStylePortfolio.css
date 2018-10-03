@@ -1,6 +1,9 @@
             body {
-                background: rgb(125, 198, 205);
-                color: rgb(45, 45, 45);
+                background-image: url("https://i.pinimg.com/originals/17/0e/da/170eda7473a17cd8c09e40d36a917f3c.jpg");
+                background-color: #cccccc;
+                background-repeat:no-repeat;
+                background-size:cover;
+                margin-top: 200px;
                 padding: 10px;
                 font-family: arial;
             }
@@ -18,7 +21,10 @@
     
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background-image: url("https://lemonquilts.files.wordpress.com/2015/05/creeper-block.jpg");
+                background-repeat:repeat;
+                background-size: 60px;
+                background-color: #cccccc;
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
@@ -27,7 +33,7 @@
             nav header {
                 display: flex;
                 align-items: center;
-                color: rgb(255, 255, 255);
+                color: yellow;
                 flex: 1;
             }
             nav ul {
@@ -44,7 +50,7 @@
     
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background-image: linear-gradient(#5E9D34, brown);
                 display: flex;
             }
             .sidebar {
@@ -68,17 +74,23 @@
             }
             
             #portfolio li {
-                background: #fff;
+                background-image: url("https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s189772745713394276_p3855_i147_w750.jpeg");
+                background-color: #cccccc;
+                background-repeat:repeat;
+                background-size: 60px;
                 padding: 10px;
                 border-radius: 10px;
                 margin-bottom: 10px;
             }
             
             #portfolio li:hover {
-                background: #eee;
+                background-image: url("https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s189772745713394276_p3855_i147_w750.jpeg");
+                background-color: #cccccc;
+                background-repeat:repeat;
+                background-size: 60px;
             } 
             
             #portfolio a {
                 text-decoration: none;
-                color: #454545;
+                color: black;
             }

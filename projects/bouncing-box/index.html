@@ -17,9 +17,12 @@
 			height: 70px;
 			top: 100px;
 			left: 0px;
-			background-color: teal;
+			background-image: url("http://cdn.superbook.cbn.com/c/cgi/m4-a1b9-a155-2642d9-0-2649e6-a191.png");
 			font-size: 300%;
 			text-align: center;
+		}
+		[class="board"] {
+			background: radial-gradient(magenta,orange,cyan,blue);
 		}
 	</style>
 
@@ -39,6 +42,7 @@
 			var boardWidth;
 			var update;
 			var handleBoxClick;
+			var boardHeight = $(window).height(); 
 			var direction;
 			direction = 1;
 
