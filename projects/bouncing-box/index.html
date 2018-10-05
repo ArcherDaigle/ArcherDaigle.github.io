@@ -17,12 +17,13 @@
 			height: 70px;
 			top: 100px;
 			left: 0px;
-			background-image: url("http://cdn.superbook.cbn.com/c/cgi/m4-a1b9-a155-2642d9-0-2649e6-a191.png");
+			background-image: url("https://thumb.ibb.co/g9URDe/aya_DSFADAG.png");
 			font-size: 300%;
 			text-align: center;
 		}
 		[class="board"] {
-			background: radial-gradient(magenta,orange,cyan,blue);
+			background-image: url("https://wallpapertag.com/wallpaper/full/4/c/e/809099-beautiful-black-skull-background-2880x1800.jpg");
+			
 		}
 	</style>
 
@@ -49,6 +50,7 @@
 			// jQuery stuff setup for you
 			box = $('.box');
 			boardWidth = $('.board').width();
+			boardHeight = $('.board').height();
 
 			// TODO 2
 			var position;
@@ -76,12 +78,17 @@
 				// TODO 3 / 6 / 7 / 8
 				
 
-
 			
 			var handleBoxClick = function() { 
 				speed = speed + 3;
 				position = 0;
 				points = points + 1;
+			if(points % 2 === 0) {
+				box.css("background-image","url(https://thumb.ibb.co/g9URDe/aya_DSFADAG.png)");
+			}
+			if(points % 2 != 0) {
+				box.css("background-image","url(https://thumb.ibb.co/mPzJte/aya_DSFADAG.png)");
+			}
 			}
 
 
